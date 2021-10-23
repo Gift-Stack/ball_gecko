@@ -6,7 +6,6 @@ const AppLayout = ({ children }) => {
   return (
     <div>
       <Header />
-      {/* <div style={{ height: 57 }}></div> */}
       <Jumbotron />
       {children}
       <Footer />
