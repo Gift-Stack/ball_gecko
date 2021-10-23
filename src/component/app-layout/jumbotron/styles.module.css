@@ -1,0 +1,22 @@
+.jumbotron {
+  background-color: rgba(252, 92, 98, 1);
+  min-height: 158px;
+  width: 100%;
+  left: -4px;
+  top: -14px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  color: #fff;
+  line-height: 9.5px;
+}
+.jumbotron div {
+  margin-left: 15px;
+}
+.jumbotron img {
+  border-radius: 50%;
+  border: 5px solid rgba(252, 92, 98, 1);
+  position: absolute;
+  right: 15px;
+  top: 80px;
+}
