@@ -1,20 +1,21 @@
+import { useHistory } from 'react-router-dom';
 import styles from './styles.module.css';
 import image from '../../assets/image.png';
 import img from '../../assets/img.png';
 
 const Home = () => {
+  const { push } = useHistory();
   return (
     <div className={styles.root}>
       <h1 className={styles.title}>Active Spaces</h1>
       <div className={styles.spaces}>
         {[...Array(16)].map((space) => (
-          <span className={styles.space}>
-            <img
-              key={space}
-              src={image}
-              alt="user space"
-              style={{ marginRight: 15 }}
-            />
+          <span
+            key={space}
+            className={styles.space}
+            onClick={() => push('/space')}
+          >
+            <img src={image} alt="user space" style={{ marginRight: 15 }} />
             <p>Mahbud's Space</p>
             <span className={styles.ellipse} />
           </span>

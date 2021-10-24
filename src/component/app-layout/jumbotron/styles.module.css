@@ -1,22 +1,30 @@
 .jumbotron {
   background-color: rgba(252, 92, 98, 1);
-  min-height: 158px;
-  width: 100%;
+  min-height: 101px;
+  width: 100.7%;
   left: -4px;
   top: -14px;
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
   color: #fff;
-  line-height: 9.5px;
+  position: relative;
 }
 .jumbotron div {
   margin-left: 15px;
+}
+.jumbotron div h1 {
+  max-width: 178px;
+  line-height: 28px;
+  font-size: 24px;
+}
+.jumbotron div p {
+  line-height: 19px;
 }
 .jumbotron img {
   border-radius: 50%;
   border: 5px solid rgba(252, 92, 98, 1);
   position: absolute;
   right: 15px;
-  top: 80px;
+  bottom: -30%;
 }

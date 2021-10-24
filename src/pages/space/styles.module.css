@@ -1,0 +1,120 @@
+.myspace {
+  margin-top: 55px;
+  margin: 55px 30px 0px 30px;
+}
+.inviteSomeone {
+  color: #7f7f7f;
+  display: flex;
+  align-items: center;
+  gap: 19px;
+}
+.inviteSomeone p {
+  width: 64px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.invite {
+  position: relative;
+}
+.invite img:last-child {
+  position: absolute;
+  left: 14px;
+  top: 25%;
+  bottom: 50%;
+}
+
+.ellipses {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.ellipses img {
+  width: 34px;
+  height: 34px;
+  border: 2px solid #7a8194;
+  border-radius: 50%;
+}
+.time {
+  display: flex;
+  justify-content: center;
+  color: rgba(237, 28, 36, 1);
+}
+
+/* Space chat room */
+.room {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 8px;
+}
+.other,
+.me {
+  margin-bottom: 12px;
+}
+.other {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.me {
+  display: flex;
+}
+.bubble {
+  background: #373e4e;
+  border-radius: 20px;
+}
+.bubble p {
+  font-size: 12px;
+  color: #fff;
+  letter-spacing: 1px;
+  padding: 0px 20px;
+}
+
+.me .bubble p {
+  max-width: 185px;
+}
+.other .bubble p {
+  max-width: 244px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: space-between;
+}
+.form {
+  margin-top: 15px;
+  position: fixed;
+  bottom: 70px;
+  display: flex;
+  width: 100%;
+}
+.form input {
+  height: 40px;
+  width: 76.5%;
+  border: 2px solid rgba(37, 40, 54, 1);
+  border-radius: 20px;
+  background: rgba(37, 40, 54, 1);
+  padding-left: 45px;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 21px;
+  letter-spacing: 0.5px;
+  color: #808191;
+  mix-blend-mode: normal;
+}
+.icons {
+  display: flex;
+  align-items: center;
+}
+.icons img {
+  position: absolute;
+}
+.icons img:first-child {
+  left: 11px;
+}
+.icons img:nth-child(2) {
+  right: 117px;
+}
+.icons img:last-child {
+  right: 79px;
+}

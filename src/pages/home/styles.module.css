@@ -59,7 +59,6 @@
   margin-top: 35px;
   display: flex;
   align-items: center;
-  /* justify-content: space-between; */
   gap: 16px;
 }
 .nameTime {
@@ -67,13 +66,10 @@
   justify-content: space-between;
 }
 .nameTime div {
-  /* line-height: 18px; */
   margin-bottom: 8px;
   font-size: 17px;
 }
 .time {
-  /* display: flex;
-  justify-content: flex-end; */
   position: absolute;
   right: 24px;
 }
