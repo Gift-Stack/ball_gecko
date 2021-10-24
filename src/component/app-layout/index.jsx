@@ -8,6 +8,7 @@ const AppLayout = ({ children }) => {
       <Header />
       <Jumbotron />
       {children}
+      <div style={{ height: 85 }} />
       <Footer />
     </div>
   );
