@@ -28,6 +28,7 @@
 .space .ellipse {
   position: absolute;
   white-space: pre-wrap;
+  max-width: 73px;
   color: #fff;
 }
 .space p {
