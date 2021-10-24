@@ -59,14 +59,19 @@
   display: flex;
 }
 .bubble {
+  position: relative;
   background: #373e4e;
   border-radius: 20px;
+}
+.withAttachment {
+  text-align: right;
+  background: #272a35;
 }
 .bubble p {
   font-size: 12px;
   color: #fff;
   letter-spacing: 1px;
-  padding: 0px 20px;
+  padding: 0px 22px;
 }
 
 .me .bubble p {
@@ -74,6 +79,30 @@
 }
 .other .bubble p {
   max-width: 244px;
+}
+.other .withAttachment p {
+  max-width: 216px;
+}
+.avatar {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  right: -5px;
+  bottom: 0;
+  border: 2px solid #fff;
+  border-radius: 30px;
+}
+.newUser {
+  height: 40px;
+
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 15px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 1px;
+  color: #ed1c24;
+  opacity: 0.4;
 }
 .container {
   display: flex;
