@@ -27,7 +27,7 @@ const Home = () => {
           <div key={ellipse} style={{ marginRight: 15 }} />
         ))}
       </div>
-      {[...Array(9)].map((key) => (
+      {[...Array(6)].map((key) => (
         <div key={key} className={styles.messages}>
           <img src={img} alt="Profile pic" />
           <div className={styles.message}>

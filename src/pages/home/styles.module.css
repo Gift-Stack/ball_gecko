@@ -73,3 +73,9 @@
   position: absolute;
   right: 24px;
 }
+.msg {
+  width: 70vw;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
